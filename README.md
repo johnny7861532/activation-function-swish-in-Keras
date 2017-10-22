@@ -28,7 +28,7 @@ classifier.compile(optimizer = adam,loss = 'binary_crossentropy'
                    ,metrics = ['accuracy'])
 
 classifier.fit(x_train,y_train,batch_size = 100,epochs = 100,validation_data  =(x_test,y_test)
-,shuffle = True,class_weight = weight)
+,shuffle = True)
 
 
 ```
