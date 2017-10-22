@@ -4,7 +4,7 @@ According to the paper is new self-gate activation function is more powerful tha
 
 Paper is here to offer: https://arxiv.org/pdf/1710.05941.pdf
 
-here is how to put it into realist in Keras.
+here is how to put it into Keras.
 
 ```python
 from keras.models import Sequential
