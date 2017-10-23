@@ -34,5 +34,23 @@ classifier.fit(x_train,y_train,batch_size = 100,epochs = 100,validation_data  =(
 ```
 ## If swish really better than relu? ##
 
-### swish confustion matrix ###
-![image](https://github.com/johnny7861532/activation-function-swish-in-Keras/blob/master/swish%20compare.png)
+### swish confusion matrix ###
+![image](https://github.com/johnny7861532/activation-function-swish-in-Keras/blob/master/fraud%20cm.png)
+
+### relu confusion matrix ###
+![image](https://github.com/johnny7861532/activation-function-swish-in-Keras/blob/master/relu%20compare.png)
+
+
+### swish training history ###
+![image](https://github.com/johnny7861532/activation-function-swish-in-Keras/blob/master/swish100%20epochs%20history.png)
+
+### relu training history ###
+![image](https://github.com/johnny7861532/activation-function-swish-in-Keras/blob/master/relu%20history.png)
+
+
+
+it seems that swish is not powerful as I expect, and swish training need about 20% extra time to training.
+
+Also compare with their training history, relu seem got better training curve.
+
+So far I can't feel the power of the swish activation function.
