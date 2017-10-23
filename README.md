@@ -49,7 +49,7 @@ classifier.fit(x_train,y_train,batch_size = 100,epochs = 100,validation_data  =(
 
 
 
-it seems that swish is not powerful as I expect, and swish training need about 20% extra time to training.
+it seems that swish is not powerful as I expect, and swish need about 20% extra time to train.
 
 Also compare with their training history, relu seem got better training curve.
 
