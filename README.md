@@ -32,3 +32,7 @@ classifier.fit(x_train,y_train,batch_size = 100,epochs = 100,validation_data  =(
 
 
 ```
+## If swish really better than relu? ##
+
+### swish confustion matrix ###
+![image](https://github.com/johnny7861532/activation-function-swish-in-Keras/blob/master/swish%20compare.png)
